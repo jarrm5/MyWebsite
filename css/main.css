@@ -1,0 +1,41 @@
+article,aside,figure,footer,header,nav,section{
+    display:block;
+}
+
+body{
+    font-size: 87.5%;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+header{
+    border-bottom: 2px solid black;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul{
+    margin: 1em;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active, a:hover{
+    font-style: italic;
+    font-size: 150%;
+}
+
+footer{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
