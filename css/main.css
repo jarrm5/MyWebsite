@@ -39,3 +39,8 @@ footer{
     text-align: center;
 }
 
+footer section img{
+    width:25px;
+    height: 25px;
+}
+
