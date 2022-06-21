@@ -1,6 +1,15 @@
 article{
-    text-align: center;
-    margin: 1em;
+    /*text-align: center;
+    margin: .5em;*/
+}
+
+article h2{
+    margin: 0;
+}
+
+article figure{
+    margin: 0;
+    /*float: left;*/
 }
 
 article aside{
@@ -15,4 +24,19 @@ article figcaption{
 article img{
     height: 200px;
     width: 200px;
+}
+
+article p{
+    margin: 0;
+}
+
+article aside ul{
+    margin: 0;
+    /*clear: left;*/
+}
+
+article aside ul li:active, article aside ul li:hover{
+    font-weight: bold;
+    color: royalblue;
+    cursor: pointer;
 }
