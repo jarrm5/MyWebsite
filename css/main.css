@@ -11,17 +11,20 @@ header{
     border-bottom: 2px solid black;
 }
 
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
 ul{
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
-header ul{
-    margin: 1em;
-}
-
-h1{
-    text-align: center;
+header nav ul li{
+    text-align:center;
+    width: 25%;
 }
 
 a{
