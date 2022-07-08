@@ -5,6 +5,8 @@ article,aside,figure,footer,header,nav,section{
 body{
     font-size: 87.5%;
     font-family: "Gill Sans Extrabold", sans-serif;
+    width:85%;
+    margin: auto;
 }
 
 header{
@@ -22,11 +24,6 @@ ul{
     margin: 0;
 }
 
-header nav ul li{
-    text-align:center;
-    width: 25%;
-}
-
 a{
     text-decoration: none;
 }
@@ -34,6 +31,11 @@ a{
 a:active, a:hover{
     font-style: italic;
     font-size: 150%;
+}
+
+section{
+    width: 95%;
+    margin:10px auto;
 }
 
 footer{
