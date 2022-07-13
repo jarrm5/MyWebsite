@@ -1,3 +1,9 @@
+/* The reset selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 article,aside,figure,footer,header,nav,section{
     display:block;
 }
@@ -14,14 +20,11 @@ header{
 }
 
 header h1 {
-    margin: 0;
     text-align: center;
 }
 
 ul{
     list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 
 a{
