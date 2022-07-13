@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Kanit', sans-serif;
 }
 
 article,aside,figure,footer,header,nav,section{
@@ -51,4 +52,5 @@ footer section img{
     width:25px;
     height: 25px;
 }
+
 

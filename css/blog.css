@@ -17,3 +17,17 @@ article aside ul li:active, article aside ul li:hover{
     color: royalblue;
     cursor: pointer;
 }
+
+article h3{
+    color:rgb(128, 128, 128);
+    font-size: 90%;
+}
+
+article figure{
+    width: 30%;
+    float:left;
+}
+
+article aside{
+    clear:both;
+}
