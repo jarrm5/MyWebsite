@@ -12,12 +12,6 @@ figure img{
     width: 100%;
 }
 
-article aside ul li:active, article aside ul li:hover{
-    font-weight: bold;
-    color: royalblue;
-    cursor: pointer;
-}
-
 article h3{
     color:rgb(128, 128, 128);
     font-size: 90%;
@@ -25,7 +19,8 @@ article h3{
 
 figure{
     width: 30%;
-    height: 300px;
+    /*height: 300px;*/
+    float: left;
 }
 
 .blog-content{
@@ -33,4 +28,16 @@ figure{
     height: 300px;
 }
 
+.blog-content aside{
+    clear:left;
+}
 
+article aside{
+    clear:both;
+}
+
+article aside ul li:active, article aside ul li:hover{
+    font-weight: bold;
+    color: royalblue;
+    cursor: pointer;
+}
