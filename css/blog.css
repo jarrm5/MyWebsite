@@ -7,9 +7,9 @@ article figcaption{
     font-style: italic;
 }
 
-article img{
-    height: 200px;
-    width: 200px;
+figure img{
+    height: 100%;
+    width: 100%;
 }
 
 article aside ul li:active, article aside ul li:hover{
@@ -23,11 +23,14 @@ article h3{
     font-size: 90%;
 }
 
-article figure{
+figure{
     width: 30%;
-    float:left;
+    height: 300px;
 }
 
-article aside{
-    clear:both;
+.blog-content{
+    width: 70%;
+    height: 300px;
 }
+
+
