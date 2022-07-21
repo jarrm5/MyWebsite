@@ -28,10 +28,6 @@ figure{
     height: 300px;
 }
 
-.blog-content aside{
-    clear:left;
-}
-
 article aside{
     clear:both;
 }
