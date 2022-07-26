@@ -26,6 +26,17 @@ figure{
 .blog-content{
     width: 70%;
     height: 300px;
+    float:left; /*Needs to be floated left against the figure so that the blog-header h3's can be floated properly*/
+}
+
+.blog-header-date{
+    width:50%;
+    float: left;
+}
+
+.blog-header-tag{
+    width:50%;
+    float: left;
 }
 
 article aside{
