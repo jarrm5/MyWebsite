@@ -7,9 +7,19 @@ article figcaption{
     font-style: italic;
 }
 
+figure{
+    width: 30%;
+    /*height: 300px;*/
+    float: left;
+    /*padding: 1%;*/
+    margin: 1%;
+    /*border-radius: 10px;*/
+}
+
 figure img{
     height: 100%;
     width: 100%;
+    border: 1px solid black;
 }
 
 article h3{
@@ -17,11 +27,8 @@ article h3{
     font-size: 90%;
 }
 
-figure{
-    width: 30%;
-    /*height: 300px;*/
-    float: left;
-    padding: 1%;
+figcaption{
+    text-align:center;
 }
 
 .blog-content{
