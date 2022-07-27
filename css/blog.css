@@ -7,7 +7,7 @@ article figcaption{
     font-style: italic;
 }
 
-figure{
+.blog-img-container{
     width: 30%;
     /*height: 300px;*/
     float: left;
@@ -16,9 +16,9 @@ figure{
     /*border-radius: 10px;*/
 }
 
-figure img{
+.blog-img-container img{
     height: 100%;
-    width: 100%;
+    width: 99%; /*to account for the border around the img*/
     border: 1px solid black;
 }
 
@@ -46,13 +46,19 @@ figcaption{
 }
 
 .blog-header-date{
-    width:50%;
+    width:fit-content;
     float: left;
 }
 
+.blog-header-seperator{
+    float:left;
+    margin-left: 2%;
+    font-size: 100%;
+}
+
 .blog-header-tag{
-    width:50%;
     float: left;
+    margin-left: 2%;
 }
 
 .blog-body{
