@@ -31,6 +31,13 @@ figure{
     padding: 1%;
 }
 
+/* This rule allows the margin-top to be set on the .blog-body */
+.blog-header::after{
+    content:"";
+    display:block;
+    clear:both; /*prevents the blog-body from colliding into the blog header when there are no blog-header-tag content */
+}
+
 .blog-header-date{
     width:50%;
     float: left;
@@ -39,6 +46,10 @@ figure{
 .blog-header-tag{
     width:50%;
     float: left;
+}
+
+.blog-body{
+    margin-top:10px;
 }
 
 article aside{
