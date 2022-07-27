@@ -21,12 +21,14 @@ figure{
     width: 30%;
     /*height: 300px;*/
     float: left;
+    padding: 1%;
 }
 
 .blog-content{
-    width: 70%;
+    width: 65%;
     height: 300px;
     float:left; /*Needs to be floated left against the figure so that the blog-header h3's can be floated properly*/
+    padding: 1%;
 }
 
 .blog-header-date{
@@ -41,6 +43,7 @@ figure{
 
 article aside{
     clear:both;
+    padding: 1%;
 }
 
 article aside ul li:active, article aside ul li:hover{
