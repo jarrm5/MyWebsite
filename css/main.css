@@ -21,7 +21,7 @@ header h1 {
 }
 
 nav{
-    border-top: 1px solid rgb(236, 230, 230);
+    border-top: 1px solid rgb(187, 185, 185);
 }
 
 nav ul{
@@ -43,6 +43,9 @@ nav li{
 
 nav li a{
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 140%;
 }
 
 nav li:hover{
