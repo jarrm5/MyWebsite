@@ -1,3 +1,7 @@
+.main-content{
+    margin-top:20px;
+}
+
 article aside{
     text-align:left;
 }
@@ -68,6 +72,10 @@ figcaption{
 article aside{
     clear:both;
     padding: 1%;
+}
+
+article aside ul{
+    list-style-type: none;
 }
 
 article aside ul li:active, article aside ul li:hover{

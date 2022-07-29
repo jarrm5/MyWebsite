@@ -16,25 +16,37 @@ body{
     margin: auto;
 }
 
-header{
-    border-bottom: 2px solid black;
-}
-
 header h1 {
     text-align: center;
 }
 
-ul{
+nav{
+    border-top: 1px solid rgb(236, 230, 230);
+}
+
+nav ul{
     list-style-type: none;
 }
 
-a{
+nav ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav li{
+    float:left;
+    width: 10%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav li a{
     text-decoration: none;
 }
 
-a:active, a:hover{
-    font-style: italic;
-    font-size: 150%;
+nav li:hover{
+    border-top: 2px solid black;
 }
 
 section .main-content{
