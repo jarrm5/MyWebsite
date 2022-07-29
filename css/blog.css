@@ -1,4 +1,4 @@
-.main-content{
+#main-content{
     margin-top:20px;
 }
 
@@ -37,7 +37,7 @@ figcaption{
 
 .blog-content{
     width: 65%;
-    height: 300px;
+    /*height: 300px;*/
     float:left; /*Needs to be floated left against the figure so that the blog-header h3's can be floated properly*/
     padding: 1%;
 }
@@ -82,4 +82,8 @@ article aside ul li:active, article aside ul li:hover{
     font-weight: bold;
     color: royalblue;
     cursor: pointer;
+}
+
+#recommended-blog-posts #recommended-nav ul{
+    list-style-type: none;
 }

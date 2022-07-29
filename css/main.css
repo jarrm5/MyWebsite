@@ -5,7 +5,7 @@
     font-family: 'Kanit', sans-serif;
 }
 
-article,aside,figure,footer,header,nav,section{
+article,aside,figure,footer,header,nav#main-nav,section{
     display:block;
 }
 
@@ -20,35 +20,35 @@ header h1 {
     text-align: center;
 }
 
-nav{
+nav#main-nav#main-nav#main-nav{
     border-top: 1px solid rgb(187, 185, 185);
 }
 
-nav ul{
+nav#main-nav ul{
     list-style-type: none;
 }
 
-nav ul::after{
+nav#main-nav ul::after{
     content: "";
     display: block;
     clear: both;
 }
 
-nav li{
+nav#main-nav li{
     float:left;
     width: 10%;
     text-align: center;
     padding: 10px 0;
 }
 
-nav li a{
+nav#main-nav li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-size: 140%;
 }
 
-nav li:hover{
+nav#main-nav li:hover{
     border-top: 2px solid black;
 }
 
