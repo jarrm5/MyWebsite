@@ -20,7 +20,7 @@ header h1 {
     text-align: center;
 }
 
-nav#main-nav#main-nav#main-nav{
+nav#main-nav{
     border-top: 1px solid rgb(187, 185, 185);
 }
 
@@ -50,6 +50,7 @@ nav#main-nav li a{
 
 nav#main-nav li:hover{
     border-top: 2px solid black;
+    cursor: pointer;
 }
 
 section .main-content{
