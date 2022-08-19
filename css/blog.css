@@ -109,8 +109,8 @@ article aside ul li:active, article aside ul li:hover{
     float:left;
 }
 
-#recommended-nav{
-    margin: 15px 0px;
+#recommended-nav, .recommended-content{
+    margin-top: 15px;
 }
 
 /* selects li elements 2 and 3 (skips 1) */
@@ -152,6 +152,7 @@ article aside ul li:active, article aside ul li:hover{
 .recommended-content-body{
     width: 65%;
     float:left;
+    padding-left: .5%;
 }
 
 .recommended-content-date{
