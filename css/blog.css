@@ -83,8 +83,12 @@ figcaption{
     margin-left: 2%;
 }
 
-.blog-body{
+/* .blog-body{
     margin-top:10px;
+} */
+
+.blog-body h2, .blog-body p{
+    padding-top:10px;
 }
 
 article aside{
@@ -108,13 +112,13 @@ article aside ul li:active, article aside ul li:hover{
     margin-top:20px;
 }
 
-#recommended-nav::after{
+#reccomended-nav::after{
     content: "";
     display:block;
     clear:both;
 }
 
-#recommended-nav ul li{
+#reccomended-nav ul li{
     background: var(--main-button-background-color);
     color: var(--main-button-color);
     padding: 5px;
@@ -123,57 +127,74 @@ article aside ul li:active, article aside ul li:hover{
     float:left;
 }
 
-#recommended-nav, .recommended-content{
+#reccomended-nav, .aside-content{
     margin-top: 15px;
 }
 
 /* selects li elements 2 and 3 (skips 1) */
-#recommended-nav ul li:nth-child(n+2){
+#reccomended-nav ul li:nth-child(n+2){
     margin-left: .5%;
 }
 
-#recommended-nav ul li:hover{
+#reccomended-nav ul li:hover{
     background: var(--main-blog-color);
     cursor: pointer
 }
 
-#recommended-blog-posts #recommended-nav ul{
+#recommended-blog-posts #reccomended-nav ul{
     list-style-type: none;
 }
 
-.recommended-content::after{
+.aside-content::after{
     content: "";
     display: block;
     clear: both;
 }
 
-.recommended-content-title{
+.aside-content-title{
     color: var(--main-blog-color);
-    font-weight: 200;
+    /*font-weight: 200;*/
 }
 
-.recommended-content-img{
-    /*width: 10%;*/
+.aside-content-img{
+    width: 25%;
     height: 100px;
     float:left;
 }
 
-.recommended-content-img img{
+.aside-content-img img{
     height:100%;
     width:99%;
 }
 
-.recommended-content-body{
+.aside-content-body{
     width: 65%;
     float:left;
-    padding-left: .5%;
+    padding-left: 3%;
 }
 
-.recommended-content-date{
+.aside-content-date{
     color: var(--main-blog-header-color);
+}
+
+#featured-blog-post{
+    margin-top:10px;
+}
+
+.featured-content{
+    margin-top: 10px;
 }
 
 /*
 width, float left for #main-blog-content and #aside-content
 
+aside-content
+aside-content-img
+aside-content-body
+aside-content-title
+aside-content-date
+
+do not change:
+reccomended-nav
+recommended-blog-posts
 */
