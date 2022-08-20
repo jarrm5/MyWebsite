@@ -106,8 +106,11 @@ article aside ul li:active, article aside ul li:hover{
     cursor: pointer;
 }
 
+/*to remove fixed positioning, comment out position and right properties and uncomment the float property. */
 #aside-content{
-    float: left;
+    /*float: left;*/
+    position:fixed;
+    right: 0;
     width: 33%;
     margin-top:20px;
 }
