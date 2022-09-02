@@ -56,6 +56,24 @@ figcaption{
     padding: 1%;
 }
 
+.blog-content ul{
+    list-style-type: none;
+    background: var(--main-blog-color);
+    padding: 5px;
+    text-align:center;
+    width:30%;
+    margin-top: 10px;
+}
+
+.blog-content ul:hover {
+    cursor:pointer;
+}
+
+.blog-content ul li a{
+    text-decoration: none;
+    color: var(--main-button-color);
+}
+
 .blog-header{
     color: var(--main-blog-header-color);
 }
