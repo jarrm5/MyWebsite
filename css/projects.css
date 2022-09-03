@@ -1,7 +1,9 @@
-/*.flex-container{
+.flex-container{
     display: flex;
-    justify-content: space-around;
-} */
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
 .project-box{
     padding: 120px 0;
@@ -22,4 +24,8 @@
 
 #brick-bazaar-box{
     background-image: url(../images/brick-bazaar-smaller.png);
+}
+
+#coming-soon {
+    background-image: url(../images/coming-soon-fitted.png);
 }
