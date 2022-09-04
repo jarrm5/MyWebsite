@@ -5,12 +5,17 @@
     font-family: 'Kanit', sans-serif;
 }
 
+html{
+    /* set the font-size for rem's */
+    font-size: 62.5%;
+}
+
 article,aside,figure,footer,header,nav#main-nav,section{
     display:block;
 }
 
 body{
-    font-size: 87.5%;
+    font-size: 130%;
     font-family: "Gill Sans Extrabold", sans-serif;
     width:90%;
     margin: auto;
@@ -38,7 +43,7 @@ nav#main-nav ul li{
     float:left;
     width: 10%;
     text-align: center;
-    padding: 10px 0;
+    padding: 1rem 0;
 }
 
 nav#main-nav ul li a{
@@ -49,7 +54,7 @@ nav#main-nav ul li a{
 }
 
 nav#main-nav li:hover{
-    border-top: 2px solid black;
+    border-top: 0.2rem solid black;
     cursor: pointer;
 }
 
@@ -65,8 +70,8 @@ footer{
 }
 
 footer section img{
-    width:25px;
-    height: 25px;
+    width:2.5rem;
+    height: 2.5rem;
 }
 
 
