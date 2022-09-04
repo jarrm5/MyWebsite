@@ -12,7 +12,7 @@
 }
 
 #main-blog-content{
-    margin-top:20px;
+    margin-top:2rem;
     width: 65%;
     float:left;
 }
@@ -31,14 +31,14 @@ article figcaption{
     /*height: 300px;*/
     float: left;
     /*padding: 1%;*/
-    margin: 1%;
+    margin: 0.7rem;
     /*border-radius: 10px;*/
 }
 
 .blog-img-container img{
     height: 100%;
     width: 99%; /*to account for the border around the img*/
-    border: 1px solid black;
+    border: 0.1rem solid black;
 }
 
 article h3{
@@ -53,16 +53,16 @@ figcaption{
     width: 65%;
     /*height: 300px;*/
     float:left; /*Needs to be floated left against the figure so that the blog-header h3's can be floated properly*/
-    padding: 1%;
+    padding: 0.7rem;
 }
 
 .blog-content ul{
     list-style-type: none;
     background: var(--main-blog-color);
-    padding: 5px;
+    padding: 0.5rem;
     text-align:center;
     width:30%;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 .blog-content ul:hover {
@@ -92,13 +92,13 @@ figcaption{
 
 .blog-header-seperator{
     float:left;
-    margin-left: 2%;
+    margin-left: 1rem;
     font-size: 100%;
 }
 
 .blog-header-tag{
     float: left;
-    margin-left: 2%;
+    margin-left: 1rem;
 }
 
 /* .blog-body{
@@ -106,12 +106,12 @@ figcaption{
 } */
 
 .blog-body h2, .blog-body p{
-    padding-top:10px;
+    padding-top:1rem;
 }
 
 article aside{
     clear:both;
-    padding: 1%;
+    padding: 0.7rem;
 }
 
 article aside ul{
@@ -130,7 +130,7 @@ article aside ul li:active, article aside ul li:hover{
     position:fixed;
     right: 0;
     width: 33%;
-    margin-top:20px;
+    margin-top:2rem;
 }
 
 #reccomended-nav::after{
@@ -142,19 +142,19 @@ article aside ul li:active, article aside ul li:hover{
 #reccomended-nav ul li{
     background: var(--main-button-background-color);
     color: var(--main-button-color);
-    padding: 5px;
+    padding: 0.5rem;
     text-align:center;
     width:20%;
     float:left;
 }
 
 #reccomended-nav, .aside-content{
-    margin-top: 15px;
+    margin-top: 1.5rem;
 }
 
 /* selects li elements 2 and 3 (skips 1) */
 #reccomended-nav ul li:nth-child(n+2){
-    margin-left: .5%;
+    margin-left: 0.5rem;
 }
 
 #reccomended-nav ul li:hover{
@@ -179,19 +179,18 @@ article aside ul li:active, article aside ul li:hover{
 
 .aside-content-img{
     width: 25%;
-    height: 100px;
     float:left;
 }
 
 .aside-content-img img{
-    height:100%;
+    /* height:100%; */
     width:99%;
 }
 
 .aside-content-body{
     width: 65%;
     float:left;
-    padding-left: 3%;
+    padding-left: 1.2rem;
 }
 
 .aside-content-date{
@@ -203,7 +202,7 @@ article aside ul li:active, article aside ul li:hover{
 }
 
 .featured-content{
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 /*
