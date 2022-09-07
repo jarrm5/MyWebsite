@@ -31,6 +31,10 @@ body{
 
 header h1 {
     text-align: center;
+    background: url(../images/white-code2-smaller.jpg);
+    /* color: var(--main-button-color); */
+    padding: 15rem 0;
+    background-size: cover;
 }
 
 nav#main-nav{
@@ -88,12 +92,19 @@ footer{
     padding: 1rem;
 }
 
-footer section{
+footer ul{
     display: flex;
+    flex-direction: row;
     justify-content:flex-end;
+    list-style-type: none;
 }
 
-footer section img{
+footer ul li.footer-left{
+    margin-right: auto;
+    align-self: center;
+}
+
+footer ul li a img{
     width:2.5rem;
     height: 2.5rem;
     margin-right: 0.75rem;

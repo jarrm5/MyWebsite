@@ -1,13 +1,14 @@
 .flex-container{
     display: flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .project-box{
-    padding: 12rem 0;
+    padding: 18rem 0;
     min-width:44rem;
+    margin: 1rem ;
     width: 40%;
     color: white;
     background-size: cover;

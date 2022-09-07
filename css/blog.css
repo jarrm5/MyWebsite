@@ -126,12 +126,12 @@ article aside ul li:active, article aside ul li:hover{
 
 /*to remove fixed positioning, comment out position and right properties and uncomment the float property. */
 #aside-content{
-    /*float: left;*/
-    position:fixed;
+    float: left;
+    /* position:fixed;
     bottom: 8rem;
-    right: 0;
+    top: 41rem;
+    right: 0; */
     width: 33%;
-    margin-top:2rem;
 }
 
 #recommended-nav::after{
