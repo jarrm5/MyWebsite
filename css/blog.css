@@ -128,18 +128,19 @@ article aside ul li:active, article aside ul li:hover{
 #aside-content{
     /*float: left;*/
     position:fixed;
+    bottom: 8rem;
     right: 0;
     width: 33%;
     margin-top:2rem;
 }
 
-#reccomended-nav::after{
+#recommended-nav::after{
     content: "";
     display:block;
     clear:both;
 }
 
-#reccomended-nav ul li{
+#recommended-nav ul li{
     background: var(--main-button-background-color);
     color: var(--main-button-color);
     padding: 0.5rem;
@@ -148,21 +149,21 @@ article aside ul li:active, article aside ul li:hover{
     float:left;
 }
 
-#reccomended-nav, .aside-content{
+#recommended-nav, .aside-content{
     margin-top: 1.5rem;
 }
 
 /* selects li elements 2 and 3 (skips 1) */
-#reccomended-nav ul li:nth-child(n+2){
+#recommended-nav ul li:nth-child(n+2){
     margin-left: 0.5rem;
 }
 
-#reccomended-nav ul li:hover{
+#recommended-nav ul li:hover{
     background: var(--main-blog-color);
     cursor: pointer
 }
 
-#recommended-blog-posts #reccomended-nav ul{
+#recommended-blog-posts #recommended-nav ul{
     list-style-type: none;
 }
 
@@ -215,6 +216,6 @@ aside-content-title
 aside-content-date
 
 do not change:
-reccomended-nav
+recommended-nav
 recommended-blog-posts
 */
