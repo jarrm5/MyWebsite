@@ -85,9 +85,7 @@ section .main-content{
 }
 
 footer{
-    font-style: italic;
-    font-weight: bold;
-    /* text-align: center; */
+    font-size: 150%;
     border-top: 1px solid var(--main-border-color);
     padding: 1rem;
 }
@@ -100,7 +98,9 @@ footer ul{
 }
 
 footer ul li.footer-left{
+    /* This spaces the left portion to the left */
     margin-right: auto;
+    /* This centers the element vertically */
     align-self: center;
 }
 
