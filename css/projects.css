@@ -6,7 +6,7 @@
 }
 
 .project-box{
-    padding: 18rem 0;
+    padding: 20rem 0;
     min-width:44rem;
     margin: 1rem ;
     width: 40%;
@@ -18,15 +18,20 @@
     /*flex: 1 1 0; */
 }
 
+/* .project-box img{
+    height: 40rem;
+    width: 50rem;
+} */
+
 #edi-web-app-box{
-    background-image: url(../images/EDI-web-app-very-small.jpg);
+    background-image: url(../images/EDI-web-app.png);
 
 }
 
 #brick-bazaar-box{
-    background-image: url(../images/brick-bazaar-smaller.png);
+    background-image: url(../images/brick-bazaar.png);
 }
 
 #coming-soon {
-    background-image: url(../images/coming-soon-fitted.png);
+    background-image: url(../images/coming-soon.jpg);
 }
