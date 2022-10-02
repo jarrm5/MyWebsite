@@ -16,6 +16,7 @@
 html{
     /* set the font-size for rem's */
     font-size: 62.5%;
+    background-image: url(../images/backgrounds/gravel.webp);
 }
 
 article,aside,figure,footer,header,nav#main-nav,section{
@@ -26,14 +27,16 @@ body{
     font-size: 130%;
     font-family: "Gill Sans Extrabold", sans-serif;
     width:90%;
-    margin: auto;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
 }
 
 header h1 {
     text-align: center;
-    background: url(../images/white-code2-smaller.jpg);
+    /* background: url(../images/white-code2-smaller.jpg); */
     /* color: var(--main-button-color); */
-    padding: 15rem 0;
+    padding: 10rem 0;
     background-size: cover;
 }
 
