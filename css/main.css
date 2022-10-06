@@ -26,11 +26,11 @@ article,aside,figure,footer,header,nav#main-nav,section{
 
 body{
     font-size: 130%;
-    font-family: "Gill Sans Extrabold", sans-serif;
-    width:90%;
+    width:80%;
     margin: 10px auto;
     background-color: white;
     border-radius: 10px;
+    max-width: 1200px;
 }
 
 header h1 {
@@ -78,10 +78,6 @@ nav#main-nav ul li a:hover{
     border-bottom: 0.2rem solid black;
     cursor: pointer;
 }
-
-/* nav#main-nav ul li a:active{
-    border-bottom: 0.2rem solid black;
-} */
 
 section .main-content{
     width: 95%;
