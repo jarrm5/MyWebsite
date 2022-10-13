@@ -6,17 +6,26 @@
 }
 
 .project-box{
-    padding: 20rem 0;
-    min-width:44rem;
     margin: 5rem;
     width: 40%;
     color: white;
-    background-size: cover;
+    /* background-size: cover; */
     border-radius: 0.8rem; 
     border: 0.1rem solid #eaeaea;
     box-shadow: 0.3rem 0.3rem 1rem rgb(139, 132, 132);
     /*flex: 1 1 0; */
     transition: opacity 1.5s;
+}
+
+.project-box img{
+    width: 100%;
+    height: 40rem;
+    border-radius: 0.8rem; 
+    /* This will make the img fit the entire dimensions of the img defined here (width 100% and height 40rem) */
+    object-fit: cover;
+    object-position: left;
+    /* This gets rid of the tiny amount of space on the bottom of each img */
+    vertical-align:middle;
 }
 
 /* Javascript needed here to target .project-box-content to be visible when hovering on .project-box */
@@ -27,21 +36,22 @@
 
 .project-box-content{
     font-size: 175%;
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
 }
 
-#edi-web-app-box{
+/* #edi-web-app-box{
     background-image: url(../images/EDI-web-app.png);
 
-}
+} */
 
-#brick-bazaar-box{
+/* #brick-bazaar-box{
     background-image: url(../images/brick-bazaar.png);
-}
+} */
 
-#coming-soon {
+/* #coming-soon {
     background-image: url(../images/coming-soon.jpg);
-}
+} */
 
 @media (max-width: 1355px) {
     .flex-container{
@@ -52,5 +62,9 @@
     .project-box{
         margin: 2rem;
         min-width:auto;
+    }
+
+    .project-box img{
+        height: 25rem;
     }
   }
