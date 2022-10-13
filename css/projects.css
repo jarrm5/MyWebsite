@@ -16,12 +16,19 @@
     border: 0.1rem solid #eaeaea;
     box-shadow: 0.3rem 0.3rem 1rem rgb(139, 132, 132);
     /*flex: 1 1 0; */
+    transition: opacity 1.5s;
 }
 
-/* .project-box img{
-    height: 40rem;
-    width: 50rem;
-} */
+/* Javascript needed here to target .project-box-content to be visible when hovering on .project-box */
+ .project-box:hover{
+    /* visibility: visible; */
+    opacity: 0.2;
+}
+
+.project-box-content{
+    font-size: 175%;
+    visibility: hidden;
+}
 
 #edi-web-app-box{
     background-image: url(../images/EDI-web-app.png);
@@ -44,5 +51,6 @@
 
     .project-box{
         margin: 2rem;
+        min-width:auto;
     }
   }
