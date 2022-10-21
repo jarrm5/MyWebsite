@@ -27,11 +27,10 @@ article,aside,figure,footer,header,nav#main-nav,section{
 
 body{
     font-size: 130%;
-    width:80%;
     margin: 10px auto;
     background-color: white;
     border-radius: 10px;
-    max-width: 1200px;
+    max-width: 92%;
 }
 
 header.header-flex-container{
@@ -43,7 +42,7 @@ header.header-flex-container h1 {
     /* background: url(../images/white-code2-smaller.jpg); */
     /* color: var(--main-button-color); */
     padding: 8rem 0;
-    background-size: cover;
+    /* background-size: cover; */
     /* width: 35%; */
     flex-basis: 35%;
     font-weight:normal;
@@ -92,7 +91,7 @@ nav#main-nav ul li a:hover{
 }
 
 section.main-content{
-    width: 95%;
+    max-width: 95%;
     margin:10px auto;
     border-top: 1px solid var(--main-border-color);
 }
