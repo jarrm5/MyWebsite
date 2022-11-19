@@ -39,7 +39,7 @@ article figcaption{
 .blog-img-container img{
     height: 100%;
     width: 99%; /*to account for the border around the img*/
-    border: 0.1rem solid black;
+    /* border: 0.1rem solid black; */
 }
 
 article h3{
@@ -59,7 +59,7 @@ figcaption{
 
 .blog-content ul{
     list-style-type: none;
-    background: var(--main-blog-color);
+    background: var(--main-nav-font-color);
     padding: 0.5rem;
     text-align:center;
     width:30%;
@@ -142,7 +142,7 @@ article aside ul li:active, article aside ul li:hover{
 }
 
 #recommended-nav ul li{
-    background: var(--main-button-background-color);
+    background: var(--main-nav-font-color);
     color: var(--main-button-color);
     padding: 0.5rem;
     text-align:center;
@@ -168,15 +168,14 @@ article aside ul li:active, article aside ul li:hover{
     list-style-type: none;
 }
 
+/* h3.aside-content-heading{
+    color: var(--main-nav-font-color);
+} */
+
 .aside-content::after{
     content: "";
     display: block;
     clear: both;
-}
-
-.aside-content-title{
-    color: var(--main-blog-color);
-    /*font-weight: 200;*/
 }
 
 .aside-content-img{
