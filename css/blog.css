@@ -5,7 +5,8 @@
     --main-button-color: rgb(249, 252, 255);
 }
 
-#main-content::after{
+/*REMOVE */
+.main-content::after{
     content: "";
     display:block;
     clear:both;
