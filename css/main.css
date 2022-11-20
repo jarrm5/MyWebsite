@@ -5,6 +5,7 @@
     --main-border-color: rgb(226, 232, 236);
     --main-button-color: rgb(249, 252, 255);
     --main-nav-font-color: rgb(119, 21, 3);
+    --main-nav-font-color-hover: rgb(233, 180, 170);
 }
 
 /* The reset selector */
