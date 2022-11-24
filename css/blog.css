@@ -1,16 +1,20 @@
-
+.grid-container{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2rem;
+}
 
 /*REMOVE */
-.main-content::after{
+/* .grid-container::after{
     content: "";
     display:block;
     clear:both;
-}
+} */
 
 #main-blog-content{
-    margin-top:2rem;
-    width: 65%;
-    float:left;
+     margin-top:2rem; 
+     /* width: 65%;
+    float:left; */
 }
 
 article aside{
@@ -24,7 +28,7 @@ article figcaption{
 
 .blog-img-container{
     width: 30%;
-    /*height: 300px;*/
+    /* height: 300px; */
     float: left;
     /*padding: 1%;*/
     margin: 0.7rem;
@@ -122,12 +126,13 @@ article aside ul li:active, article aside ul li:hover{
 
 /*to remove fixed positioning, comment out position and right properties and uncomment the float property. */
 #aside-content{
-    float: left;
+    /* float: left; */
+    /* width: 33%; */
     /* position:fixed;
     bottom: 8rem;
     top: 41rem;
     right: 0; */
-    width: 33%;
+    margin-top: 2rem;
 }
 
 #recommended-nav::after{
