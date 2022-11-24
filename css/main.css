@@ -6,6 +6,9 @@
     --main-button-color: rgb(249, 252, 255);
     --main-nav-font-color: rgb(119, 21, 3);
     --main-nav-font-color-hover: rgb(233, 180, 170);
+
+    --view-port-medium-width: 1170px;
+    --view-port-small-width: 650px;
 }
 
 /* The reset selector */
@@ -127,7 +130,7 @@ footer ul li a img{
 
 /* media queries */
 
-@media (max-width: 1355px) {
+@media (max-width: 1170px) {
     header.header-flex-container{
         flex-direction: column;
         align-items: center;
