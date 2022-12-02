@@ -212,10 +212,24 @@ recommended-blog-posts
 @media (max-width: 600px) {
     #aside-content {
         display: block;
+        /* max-width:50%; */
+    }
+
+    .aside-content, .featured-content{
+        justify-content: center;
     }
 
     #featured-blog-post{
         margin-top: 2rem;
+    }
+
+    #recommended-nav ul{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #recommended-nav ul li{
+        margin-bottom: 2rem;
     }
 
     #recommended-blog-posts > h3, #featured-blog-post > h3{
