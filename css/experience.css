@@ -1,0 +1,26 @@
+:root{
+    --h1-font-size: 3rem;
+    --h2-font-size: 2rem;
+    --li-font-size: 1.8rem;
+}
+
+div.exp-box{
+    background-color: var(--main-border-color);
+}
+
+h1.exp-box-employer{
+    font-size: var(--h1-font-size);
+}
+
+h2.exp-box-position, h2.exp-box-date{
+    font-size: var(--h2-font-size);
+    font-weight: normal;
+}
+
+ul.exp-box-desc{
+    /* list-style-type: */
+}
+
+ul.exp-box-desc li{
+    font-size: var(--li-font-size);
+}
