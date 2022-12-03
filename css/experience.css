@@ -2,24 +2,63 @@
     --h1-font-size: 3rem;
     --h2-font-size: 2rem;
     --li-font-size: 1.8rem;
+
+    --box-padding: .8rem;
+    --box-ul-margin: 2rem;
+    --box-ul-li-margin-top: 1rem;
+
+    --grid-column-span: 1/3;
+    --grid-gap: 5rem;
+}
+
+.exp-box-padding{
+    padding: var(--box-padding);
+}
+
+.exp-box-ul-margin-left{
+    margin-left: var(--box-ul-margin);
+}
+
+.grid-column-span-three{
+    grid-column: 1/3;
+}
+
+/* HTML elements */
+
+div.exp-box-container{
+    display: grid;
+    justify-content: center;
+    gap: var(--grid-gap) 0;
+    margin: var(--grid-gap) 0;
 }
 
 div.exp-box{
     background-color: var(--main-border-color);
+    max-width: 75vw;
+    border-radius: var(--border-radius-box);
+    border: var(--border-box);
+    box-shadow: var(--box-shadow);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 
 h1.exp-box-employer{
     font-size: var(--h1-font-size);
+    text-align: center;
 }
 
 h2.exp-box-position, h2.exp-box-date{
     font-size: var(--h2-font-size);
     font-weight: normal;
+    text-align: center;
+    font-weight: bold;
 }
 
-img.exp-box-img{
+.exp-box-img img{
     width: var(--small-image-width);
     height: var(--small-image-height);
+    display:block;
+    margin: 0 auto;
 }
 
 ul.exp-box-desc{
@@ -28,4 +67,9 @@ ul.exp-box-desc{
 
 ul.exp-box-desc li{
     font-size: var(--li-font-size);
+    /* text-align: center; */
+}
+
+ul.exp-box-desc li:nth-child(n+2){
+    margin-top: var(--box-ul-li-margin-top);
 }

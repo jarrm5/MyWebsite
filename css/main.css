@@ -4,14 +4,16 @@
     --main-button-background-color: rgb(53, 64, 73);
     --main-border-color: rgb(226, 232, 236);
     --main-button-color: rgb(249, 252, 255);
-    --main-nav-font-color: rgb(119, 21, 3);
+    /* --main-nav-font-color: rgb(119, 21, 3); */
+    --main-nav-font-color: rgb(170, 31, 6);
     --main-nav-font-color-hover: rgb(233, 180, 170);
-
-    --view-port-medium-width: 1170px;
-    --view-port-small-width: 650px;
 
     --small-image-width: 100px;
     --small-image-height: 100px;
+
+    --border-radius-box: 0.8rem;
+    --border-box: 0.1rem solid var(--main-border-color);
+    --box-shadow: .3rem 0.3rem 1rem var(--main-blog-header-color);
 }
 
 /* The reset selector */

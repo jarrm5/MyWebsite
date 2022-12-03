@@ -10,10 +10,9 @@
     width: 40%;
     color: white;
     /* background-size: cover; */
-    border-radius: 0.8rem; 
-    border: 0.1rem solid #eaeaea;
-    box-shadow: 0.3rem 0.3rem 1rem rgb(139, 132, 132);
-    /*flex: 1 1 0; */
+    border-radius: var(--border-radius-box);
+    border: var(--border-box);
+    box-shadow: var(--box-shadow);
     transition: opacity 1.5s;
 }
 
