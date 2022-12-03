@@ -9,6 +9,9 @@
 
     --view-port-medium-width: 1170px;
     --view-port-small-width: 650px;
+
+    --small-image-width: 100px;
+    --small-image-height: 100px;
 }
 
 /* The reset selector */

@@ -17,6 +17,11 @@ h2.exp-box-position, h2.exp-box-date{
     font-weight: normal;
 }
 
+img.exp-box-img{
+    width: var(--small-image-width);
+    height: var(--small-image-height);
+}
+
 ul.exp-box-desc{
     /* list-style-type: */
 }

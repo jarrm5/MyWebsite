@@ -160,8 +160,8 @@ article aside ul li:active, article aside ul li:hover{
 }
 
 .aside-content-img img{
-    height:100px;
-    width:100px;
+    height: var(--small-image-height);
+    width:var(--small-image-width);
 }
 
 .aside-content-date{
