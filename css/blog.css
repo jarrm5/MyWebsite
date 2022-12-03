@@ -223,6 +223,11 @@ recommended-blog-posts
         margin-top: 2rem;
     }
 
+    #recommended-nav{
+        max-width: 50%;
+        margin: 1rem auto;
+    }
+
     #recommended-nav ul{
         justify-content: center;
         flex-direction: column;
