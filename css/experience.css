@@ -4,6 +4,7 @@
     --li-font-size: 1.8rem;
 
     --box-padding: 1.5rem;
+    --box-padding-small: 0.75rem;
     --box-ul-margin: 2rem;
     --box-ul-li-margin-top: 1rem;
 
@@ -55,8 +56,12 @@ h1.exp-box-employer{
 h2.exp-box-position, h2.exp-box-date{
     font-size: var(--h2-font-size);
     font-weight: normal;
-    text-align: center;
+    /* text-align: center; */
     font-weight: bold;
+}
+
+h2.exp-box-date{
+    text-align: right;
 }
 
 .exp-box-img img{
@@ -66,9 +71,9 @@ h2.exp-box-position, h2.exp-box-date{
     margin: 0 auto;
 }
 
-ul.exp-box-desc{
-    /* list-style-type: */
-}
+/* ul.exp-box-desc{
+    list-style-type: 
+} */
 
 ul.exp-box-desc li{
     font-size: var(--li-font-size);
@@ -77,4 +82,20 @@ ul.exp-box-desc li{
 
 ul.exp-box-desc li:nth-child(n+2){
     margin-top: var(--box-ul-li-margin-top);
+}
+
+@media (max-width: 600px) {
+
+    h2.exp-box-position, h2.exp-box-date{
+        grid-column: 1/3;
+        text-align:center;
+    }
+
+    h2.exp-box-position{
+        padding: var(--box-padding-small) var(--box-padding-small) 0 var(--box-padding-small);
+    }
+
+    h2.exp-box-date {
+        padding: 0 var(--box-padding-small) 0 var(--box-padding-small);
+    }
 }
