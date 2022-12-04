@@ -3,7 +3,7 @@
     --h2-font-size: 2rem;
     --li-font-size: 1.8rem;
 
-    --box-padding: .8rem;
+    --box-padding: 1.5rem;
     --box-ul-margin: 2rem;
     --box-ul-li-margin-top: 1rem;
 
@@ -15,8 +15,13 @@
     padding: var(--box-padding);
 }
 
-.exp-box-ul-margin-left{
+/* .exp-box-ul-margin-left{
     margin-left: var(--box-ul-margin);
+} */
+
+.exp-box-ul-width{
+    width: min(75%,85rem);
+    margin: 0 auto;
 }
 
 .grid-column-span-three{
