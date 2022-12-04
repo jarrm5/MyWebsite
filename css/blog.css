@@ -51,7 +51,8 @@ figcaption{
     background: var(--main-nav-font-color);
     padding: 0.5rem;
     text-align:center;
-    width:30%;
+    /* width:30%; */
+    width: max(130px, 30%);
     margin-top: 1rem;
 }
 

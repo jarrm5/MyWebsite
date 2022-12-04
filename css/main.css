@@ -14,6 +14,10 @@
     --border-radius-box: 0.8rem;
     --border-box: 0.1rem solid var(--main-border-color);
     --box-shadow: .3rem 0.3rem 1rem var(--main-blog-header-color);
+
+    --min-font-size: 
+    --ideal-font-size: 
+    --max-font-size: 
 }
 
 /* The reset selector */
@@ -71,26 +75,14 @@ nav#main-nav ul{
     justify-content: space-evenly;
 }
 
-/* nav#main-nav ul::after{
-    content: "";
-    display: block;
-    clear: both;
-} */
-
 nav#main-nav ul li{
-    /* float:left; */ 
-    /* width: 10%;  */
     text-align: center;
     padding: 1rem 0;
-    /* background-color: red; 
-    flex-grow: 1;
-    flex-shrink: 1; */
 }
 
 nav#main-nav ul li a{
     text-decoration: none;
     color: var(--main-nav-font-color);
-    /* font-weight: bold; */
     font-size: 200%;
 }
 
