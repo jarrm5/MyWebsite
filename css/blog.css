@@ -65,36 +65,39 @@ figcaption{
     color: var(--main-button-color);
 }
 
-.blog-header{
+.blog-header {
     color: var(--main-blog-header-color);
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 1fr;
 }
 
-/* This rule allows the margin-top to be set on the .blog-body */
-.blog-header::after{
-    content:"";
-    display:block;
-    clear:both; /*prevents the blog-body from colliding into the blog header when there are no blog-header-tag content */
+.blog-header h2{
+    color: black;
+    font-size: 200%;
 }
 
-.blog-header-date{
-    width:fit-content;
-    float: left;
+.blog-header-subheading{
+    display:flex;
+    align-items: center;
 }
 
 .blog-header-seperator{
-    float:left;
-    margin-left: 1rem;
     font-size: 100%;
+    padding-left: 1rem;
 }
 
 .blog-header-tag{
-    float: left;
-    margin-left: 1rem;
+    padding-left: 1rem;
 }
 
-.blog-body h2, .blog-body p{
+.blog-body p{
     padding-top:1rem;
 }
+
+/* .blog-body h2, .blog-body p{
+    padding-top:1rem;
+} */
 
 article aside{
     clear:both;
@@ -211,6 +214,14 @@ recommended-blog-posts
     }
 }
 @media (max-width: 600px) {
+    #main-blog-content article{
+        grid-template-columns: 1fr;
+    }
+
+    .blog-img-container{
+        width: fit-content;
+    }
+
     #aside-content {
         display: block;
         /* max-width:50%; */
