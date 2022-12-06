@@ -25,6 +25,7 @@ article figcaption{
 
 .blog-img-container{
     margin: 0.7rem;
+    grid-row: span 2;
     /*border-radius: 10px;*/
 }
 
@@ -70,6 +71,7 @@ figcaption{
     display: grid;
     grid-template-rows: repeat(2,1fr);
     grid-template-columns: 1fr;
+    padding: 0.7rem;
 }
 
 .blog-header h2{
