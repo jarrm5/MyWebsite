@@ -217,11 +217,38 @@ recommended-blog-posts
 }
 @media (max-width: 600px) {
     #main-blog-content article{
-        grid-template-columns: 1fr;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
     }
+    #main-blog-content article:nth-child(n+2){
+        margin-top: 2rem;
+    }
+
 
     .blog-img-container{
         width: fit-content;
+        order: 2;
+    }
+
+    .blog-header{
+        order: 1;
+    }
+
+    .blog-header h2{
+        text-align: center;
+    }
+
+    .blog-content{
+        order: 3
+    }
+
+    .blog-content ul{
+        margin: .7rem auto;
+    }
+
+    .blog-body{
+        text-align:center;
     }
 
     #aside-content {
