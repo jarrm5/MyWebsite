@@ -1,5 +1,3 @@
-function printDate(){
-    var date = new Date().getFullYear();
-    var elements = document.getElementsByClassName("footer-left");
-    console.log(elements[0].innerHTML);
+function outputCurrentYear(){
+    document.getElementsByClassName("footer-left")[0].innerText += (" " + new Date().getFullYear());
 }
