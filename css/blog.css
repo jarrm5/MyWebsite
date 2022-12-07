@@ -51,7 +51,7 @@ figcaption{
     padding: 0.7rem;
 }
 
-.blog-content ul{
+.blog-content div.btn-continue-reading{
     list-style-type: none;
     background: var(--main-nav-font-color);
     padding: 0.5rem;
@@ -59,9 +59,10 @@ figcaption{
     /* width:30%; */
     width: max(130px, 30%);
     margin-top: 1rem;
+    color: var(--main-button-color);
 }
 
-.blog-content ul:hover {
+.blog-content div.btn-continue-reading {
     cursor:pointer;
 }
 
@@ -85,7 +86,6 @@ figcaption{
 
 .blog-header-subheading{
     display:flex;
-    align-items: center;
 }
 
 .blog-header-seperator{
@@ -97,18 +97,18 @@ figcaption{
     padding-left: 1rem;
 }
 
-article aside{
-    clear:both;
-    padding: 0.7rem;
-}
-
-article aside ul{
+article ul.user-btns{
     list-style-type: none;
+    color: var(--main-nav-font-color);
+    font-size: 130%;
+    /* display:flex; */
+    display:none;
+    justify-content: space-evenly;
+    margin-top: 1rem;
 }
 
-article aside ul li:active, article aside ul li:hover{
+article ul.user-btns li:active, article ul.user-btns li:hover{
     font-weight: bold;
-    color: royalblue;
     cursor: pointer;
 }
 
@@ -178,19 +178,23 @@ article aside ul li:active, article aside ul li:hover{
     margin-top: 1rem;
 }
 
-/*
-width, float left for #main-blog-content and #aside-content
+.cutoff-text::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, white);
+    height: calc(1em * var(--line-height));
+    width: 100%;
+}
 
-aside-content
-aside-content-img
-aside-content-body
-aside-content-title
-aside-content-date
-
-do not change:
-recommended-nav
-recommended-blog-posts
-*/
+.cutoff-text{
+    display: -webkit-box;
+    overflow: hidden;
+    position: relative;
+    max-height: calc(var(--max-lines) * 1em * var(--line-height));
+    line-height: var(--line-height);
+}
 
 @media (max-width: 1170px) {
     .grid-container{
@@ -250,6 +254,10 @@ recommended-blog-posts
 
     .aside-content, .featured-content{
         justify-content: center;
+    }
+
+    div.btn-continue-reading{
+        margin: 1rem auto 0 auto;
     }
 
     #featured-blog-post{
