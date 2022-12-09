@@ -8,7 +8,7 @@ function underlineNav(){
     //Get title of the current page
 
     for (let index = 0; index < links.length; index++) {
-        const element = array[index];
+        const element = links[index];
         /*if(title == element.innerHtml.lower()){
                 links[index].classList.add("underline-nav");
         }
