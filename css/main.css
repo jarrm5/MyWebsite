@@ -23,6 +23,10 @@
     --max-font-size:  */
 }
 
+.underline-nav{
+    border-bottom: 0.2rem solid var(--main-nav-font-color);
+}
+
 /* The reset selector */
 * {
     margin: 0;

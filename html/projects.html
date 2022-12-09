@@ -21,11 +21,13 @@
       <h1>James Rinella</h1>
       <nav id="main-nav">
         <ul>
-          <li><a href="experience.html">Experience</a></li>
+          <li>
+            <a onclick="underlineNav()" href="experience.html">Experience</a>
+          </li>
           <!-- <li><a href="index.html">Home</a></li> -->
-          <li><a href="projects.html">Projects</a></li>
+          <li onclick="underlineNav()"><a href="projects.html">Projects</a></li>
           <!-- <li><a href="contact.html">Contact</a></li> -->
-          <li><a href="blog.html">Blog</a></li>
+          <li onclick="underlineNav()"><a href="blog.html">Blog</a></li>
         </ul>
       </nav>
     </header>
@@ -37,12 +39,10 @@
             A simple TMS built on the MEAN stack
           </p>
         </div>
-        <!-- <div class="project-box" id="edi-web-app-box">EDI Web App</div> -->
         <div class="project-box" id="brick-bazaar-box">
           <img src="../images/brick-bazaar.png" alt="Brick Bazaar" />
           <p class="project-box-content">A java project</p>
         </div>
-        <!-- <div class="project-box" id="brick-bazaar-box">Brick Bazaar</div> -->
         <div class="project-box" id="coming-soon">
           <img src="../images/coming-soon.jpg" alt="Coming Soon" />
           <p class="project-box-content">Coming Soon</p>
@@ -50,7 +50,6 @@
       </div>
     </section>
     <footer>
-      <!-- <p>JR 2022</p> -->
       <ul>
         <li class="footer-left">&copy; James Rinella</li>
         <li>
