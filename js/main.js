@@ -5,8 +5,6 @@ function outputCurrentYear(){
 function underlineNav(){
     const links = document.querySelectorAll("#main-nav ul li a");
 
-    //Get title of the current page
-
     for (let index = 0; index < links.length; index++) {
         const element = links[index];
         if(document.title.toUpperCase() == element.innerHTML.toUpperCase()){
