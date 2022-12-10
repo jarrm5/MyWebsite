@@ -9,12 +9,12 @@ function underlineNav(){
 
     for (let index = 0; index < links.length; index++) {
         const element = links[index];
-        /*if(title == element.innerHtml.lower()){
-                links[index].classList.add("underline-nav");
+        if(document.title.toUpperCase() == element.innerHTML.toUpperCase()){
+            links[index].classList.add("underline-nav");
         }
         else{
             links[index].classList.remove("underline-nav");
-        }*/
+        }
     }
 }
 
