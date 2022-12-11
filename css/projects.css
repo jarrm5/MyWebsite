@@ -1,5 +1,5 @@
 .project-box-hover{
-    opacity: 0.2;
+    opacity: 0.8;
 }
 
 .flex-container{
@@ -13,12 +13,10 @@
     margin: 5rem;
     width: 40%;
     color: white;
-    /* background-size: cover; */
     border-radius: var(--border-radius-box);
     border: var(--border-box);
     box-shadow: var(--box-shadow);
     transition: opacity 1.5s;
-    position: relative;
 }
 
 .project-box img{
@@ -30,28 +28,25 @@
     object-position: left;
     /* This gets rid of the tiny amount of space on the bottom of each img */
     vertical-align:middle;
+    position: relative;
 }
 
 .project-box-content {
 	font-size: 175%;
-	position: absolute;
-	visibility: hidden;
+	/* visibility: hidden; */
 	color: black;
 	top: 50%;
-	width: 100%;
+	/* width: auto; */
 	text-align: center;
-    transition: visibility 1.5s;
+	transition: visibility 1.5s;
+	padding: 1rem;
+    margin-top: -6rem;
+    transition: margin-top 1.5s;
 }
 
 .project-box-content-hover {
-	font-size: 175%;
-	position: absolute;
-	visibility: visible;
-	color: black;
-	top: 50%;
-	width: 100%;
-	text-align: center;
-    transition: visibility 1.5s;
+	/* visibility: visible; */
+    margin-top: 0;
 }
 
 /* #edi-web-app-box{
@@ -102,7 +97,7 @@
 
     .project-box:hover{
         /* visibility: visible; */
-        opacity:unset;
+        opacity:1;
     }
 
     .project-box img{
@@ -117,6 +112,7 @@
         font-size: 100%;
         margin-left:2rem;
         position: static;
-        width: auto;
+        width: 50%;
+        visibility: visible;
     }
   }
