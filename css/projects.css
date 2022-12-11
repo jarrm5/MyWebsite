@@ -1,5 +1,5 @@
 .project-box-hover{
-    opacity: 0.8;
+    opacity: 0.75;
 }
 
 .flex-container{
@@ -33,19 +33,16 @@
 
 .project-box-content {
 	font-size: 175%;
-	/* visibility: hidden; */
 	color: black;
-	top: 50%;
 	/* width: auto; */
 	text-align: center;
 	transition: visibility 1.5s;
 	padding: 1rem;
-    margin-top: -6rem;
+    margin-top: -5.4rem;
     transition: margin-top 1.5s;
 }
 
 .project-box-content-hover {
-	/* visibility: visible; */
     margin-top: 0;
 }
 
@@ -75,6 +72,11 @@
 
     .project-box img{
         height: 25rem;
+    }
+
+    .project-box-content{
+        margin-top: 0;
+        font-size: 125%;
     }
   }
 
