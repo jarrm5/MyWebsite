@@ -7,6 +7,8 @@
     flex-direction:row;
     justify-content: space-between;
     flex-wrap: wrap;
+    /*This prevents other boxes from filling space when you hover over a box*/
+    align-items: flex-start;
 }
 
 .project-box{
@@ -31,12 +33,12 @@
     position: relative;
 }
 
+/* The bug is the margin-top is also increasing the content area of .project-box */ 
 .project-box-content {
 	font-size: 175%;
 	color: black;
 	/* width: auto; */
 	text-align: center;
-	transition: visibility 1.5s;
 	padding: 1rem;
     margin-top: -5.4rem;
     transition: margin-top 1.5s;
