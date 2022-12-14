@@ -15,7 +15,7 @@
     --border-box: 0.1rem solid var(--main-border-color);
     --box-shadow: .3rem 0.3rem 1rem var(--main-blog-header-color);
 
-    --max-lines: 10;
+    --max-lines: 8;
     --line-height: 1.4;
 
     /* --min-font-size: 

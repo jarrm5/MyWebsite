@@ -191,9 +191,9 @@ article ul.user-btns li:active, article ul.user-btns li:hover{
 .cutoff-text{
     display: -webkit-box;
     overflow: hidden;
-    position: relative;
-    max-height: calc(var(--max-lines) * 1em * var(--line-height));
-    line-height: var(--line-height);
+    position: relative; 
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
 }
 
 @media (max-width: 1170px) {
