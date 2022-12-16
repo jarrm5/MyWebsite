@@ -1,7 +1,12 @@
 function revealBlogPost(){
-    console.log("continue reading button clicked.");
-    // this.parentElement.children[0].classList.remove("cutoff-text");
-    const test = this.parentElement.children[0];
+    let elem = this;
+    do {
+        elem = elem.previousSibling;
+    } while (elem.tagName != "SECTION");
+
+    elem.children[0].classList.remove("cutoff-text");
+    
+    
 }
 
 
