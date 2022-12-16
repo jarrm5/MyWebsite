@@ -101,10 +101,13 @@ article ul.user-btns{
     list-style-type: none;
     color: var(--main-nav-font-color);
     font-size: 130%;
-    /* display:flex; */
     display:none;
-    justify-content: space-evenly;
+    justify-content: left;
     margin-top: 1rem;
+}
+
+article ul.user-btns li:nth-child(2){
+    padding-left: 1.5rem;
 }
 
 article ul.user-btns li:active, article ul.user-btns li:hover{
