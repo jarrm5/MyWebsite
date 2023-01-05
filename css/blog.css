@@ -66,6 +66,11 @@ figcaption{
     cursor:pointer;
 }
 
+div.btn-continue-reading:hover{
+    background: var(--main-nav-font-color-hover);
+    /* cursor: pointer */
+}
+
 .blog-content ul li a{
     text-decoration: none;
     color: var(--main-button-color);
@@ -114,6 +119,12 @@ article ul.user-btns .user-btn img{
     height: 20px;
     width: 20px;
 }
+
+/* article ul.user-btns .user-btn img:hover{
+    filter: sepia(300%) hue-rotate(150deg) saturate(450%);
+    transition: filter 1.5s;
+} */
+
 
 /* article ul.user-btns li:active, article ul.user-btns li:hover{
     font-weight: bold;
