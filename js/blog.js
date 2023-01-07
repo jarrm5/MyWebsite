@@ -17,8 +17,18 @@ function revealBlogPost(){
     } while (elem);
 }
 
+function incrementLikeCount(){
+    //if the current count is empty string, convert it to "0". else get the current count
+    let count = parseInt(this.previousElementSibling.innerHTML == "" ? "0" : this.previousElementSibling.innerHTML);
+    this.previousElementSibling.innerHTML = ++count;
+}
 
 const buttons = document.getElementsByClassName("btn-continue-reading");
 for (let index = 0; index < buttons.length; index++) {
     buttons[index].addEventListener("click", revealBlogPost);
+}
+
+const likeButtons = document.getElementsByClassName("btn-like");
+for (let index = 0; index < likeButtons.length; index++) {
+    likeButtons[index].addEventListener("click", incrementLikeCount);
 }

@@ -120,11 +120,13 @@ article ul.user-btns .user-btn img{
     width: 20px;
 }
 
-/* article ul.user-btns .user-btn img:hover{
-    filter: sepia(300%) hue-rotate(150deg) saturate(450%);
-    transition: filter 1.5s;
-} */
+article ul.user-btns .user-btn img:hover{
+    filter: brightness(75%);
+}
 
+article ul.user-btns .user-btn i:hover{
+    filter: brightness(75%);
+}
 
 /* article ul.user-btns li:active, article ul.user-btns li:hover{
     font-weight: bold;
