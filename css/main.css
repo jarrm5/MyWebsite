@@ -23,7 +23,18 @@
     --max-font-size:  */
 }
 
-.underline-nav{
+@keyframes transitionIn {
+    0% {
+        opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .underline-nav{
     border-bottom: 0.2rem solid var(--main-nav-font-color);
 }
 
@@ -51,6 +62,7 @@ body{
     background-color: white;
     border-radius: 10px;
     max-width: 92%;
+    animation: transitionIn 1s;
 }
 
 header.header-flex-container{
