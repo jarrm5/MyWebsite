@@ -42,6 +42,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
     /* font stack */
     font-family: 'Kanit', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
@@ -110,7 +111,7 @@ nav#main-nav ul li a:hover{
     cursor: pointer;
 }
 
-section.main-content{
+.main-content{
     max-width: 95%;
     margin: 10px auto 0 auto;
     border-top: 1px solid var(--main-border-color);
